@@ -1,0 +1,21 @@
+{
+  "name": "musical-octo-spoon",
+  "version": "1.0.0",
+  "description": "verifying my git set-up: )",
+  "keywords": [],
+  "homepage": "https://github.com/24wh1a0547-byte/musical-octo-spoon#readme",
+  "bugs": {
+    "url": "https://github.com/24wh1a0547-byte/musical-octo-spoon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24wh1a0547-byte/musical-octo-spoon.git"
+  },
+  "license": "ISC",
+  "author": "24wh1a0547",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
