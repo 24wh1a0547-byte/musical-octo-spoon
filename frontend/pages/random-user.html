@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>musical-octo-spoon</title>
+    <title>Auto Suggest</title>
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
@@ -11,13 +11,16 @@
         <a href="/">Home</a>
         <a href="card.html">Card</a>
         <a href="toggle.html">Toggle</a>
-        <a href="random-user.html">Random User</a>
+        <a href="random-user.html">Random user</a>
     </div>
+    
     <div class="card">
-        <img src="../image/john.png" alt="john">
-        <h2>John Doe</h2>
-        <p>male</p>
+        <img id = "user" src="../image/john.png" alt="User Image">
+        <h2 id = "name">Jhon Doe</h2>
+        <p id = "gender">Male</p>
+        <button onclick="randomuser()">random</button>
     </div>
     <script src="js/index.js"></script>
+     <script src="../js/random-user.js"></script>
 </body>
 </html>
